@@ -226,3 +226,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### original ignore files
+mysql/data/
+.DS_store

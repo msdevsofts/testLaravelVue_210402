@@ -30,7 +30,7 @@ services:
     image: mysql:8.0.23
     container_name: test_vue_mysql
     ports:
-    - 13307:3306
+      - 13307:3306
     volumes:
       - ./mysql/data/:/var/lib/mysql/
       - ./mysql/my.linux.cnf:/etc/mysql/conf.d/my.cnf

@@ -229,3 +229,4 @@ dist
 ### original ignore files
 mysql/data/
 .DS_store
+.github/wiki/
